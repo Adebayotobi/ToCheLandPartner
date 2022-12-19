@@ -1,0 +1,60 @@
+
+.about-us {
+    max-width: 75%;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.contents-main{
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contents-main h1{
+    color: red;
+    text-align: center;
+    font-family: 'PT Sans';
+    font-style: normal;
+}
+.contents-main p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+}
+.about-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.about-group{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    min-width: 270px;
+    /* align-items: center; */
+    width: 30%;
+    padding: 0 15px;
+}
+
+.about-group h3{
+    color: red;
+    align-self: center;
+}
+
+.about-group p{
+    font-family: 'Montserrat';
+    font-style: normal;
+   font-weight: 600;
+    font-size: 16px;
+}
+.about-icon{
+    width: 100px;
+    height: 150px;
+    align-self: center;
+}

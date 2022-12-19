@@ -1,0 +1,40 @@
+.topbar{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* align-items: center; */
+    width: 100%;
+    height: 400px;
+    background: url("../../assets/truck.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .topbar img{
+    width: 100px;
+    height: 90px;
+  }
+  .nav-top{
+    text-decoration: none;
+    padding: 0 17px;
+    color: black;
+    transition: 0.5ms linear;
+  }
+  
+  .nav-top:hover{
+    color: #FE0404;
+  }
+  
+  .topbar ul{
+   margin-top: 20px;
+  background-color: #FFFFFF;
+  padding: 10px 15px;
+  border-radius: 20px;
+ }
+
+ @media only screen and (max-width: 600px) {
+  .topbar div{
+    display: none;
+  }
+ }

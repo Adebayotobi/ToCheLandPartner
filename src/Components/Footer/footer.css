@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #D9D9D9;
+    width: 100vw;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 15px;
+}
+
+.footer-info h2{
+    color: red;
+}
+
+.footer-info ul li{
+    list-style: none;
+    line-height: 25px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.footer-img{
+    width: 300px;
+    height: 100px;
+}
